@@ -493,31 +493,35 @@
       }
     },
     "size": {
-      "small": {
+      "xsmall": {
         "type": "dimension",
-        "value": "2rem"
+        "value": "1rem"
       },
-      "medium": {
+      "xlarge": {
         "type": "dimension",
-        "value": "8rem"
+        "value": "24rem"
       },
       "large": {
         "type": "dimension",
         "value": "16rem"
       },
-      "xlarge": {
+      "medium": {
         "type": "dimension",
-        "value": "24rem"
+        "value": "8rem"
+      },
+      "small": {
+        "type": "dimension",
+        "value": "2rem"
       }
+    },
+    "primary": {
+      "type": "color",
+      "value": "#4BDED5"
     },
     "secondary": {
       "type": "color",
       "value": "#FF3030",
       "description": "this is the secondary color"
-    },
-    "primary": {
-      "type": "color",
-      "value": "#4BDED5"
     },
     "space": {
       "25": {
