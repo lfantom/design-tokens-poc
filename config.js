@@ -27,8 +27,6 @@ const {
   "app/android/components": androidComponents,
 } = require("./style-dictionary/configs/android")();
 
-console.log(StyleDictionary);
-
 module.exports = {
   parsers: [w3cParser],
   source: ["tokens/**/*.json"],
