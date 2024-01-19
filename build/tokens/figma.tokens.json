@@ -493,10 +493,6 @@
       }
     },
     "size": {
-      "xsmall": {
-        "type": "dimension",
-        "value": "1rem"
-      },
       "xlarge": {
         "type": "dimension",
         "value": "24rem"
