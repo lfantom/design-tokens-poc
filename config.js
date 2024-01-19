@@ -19,8 +19,29 @@ const { "css/core": cssCore, "css/semantic": cssSemantic, "scss/components": scs
 
 const { "json/figma": figmaJSON } = require("./style-dictionary/configs/figma")();
 
+const { "app/ios/core": iOSCore, "app/ios/semantic": iOSSemantic, "app/ios/components": iOSComponents } = require("./style-dictionary/configs/ios")();
+
+const {
+  "app/android/core": androidCore,
+  "app/android/semantic": androidSemantic,
+  "app/android/components": androidComponents,
+} = require("./style-dictionary/configs/android")();
+
+console.log(StyleDictionary);
+
 module.exports = {
   parsers: [w3cParser],
   source: ["tokens/**/*.json"],
-  platforms: { cssCore, cssSemantic, scssComponents, figmaJSON },
+  platforms: {
+    cssCore,
+    cssSemantic,
+    scssComponents,
+    figmaJSON,
+    iOSCore,
+    iOSSemantic,
+    iOSComponents,
+    androidCore,
+    androidSemantic,
+    androidComponents,
+  },
 };

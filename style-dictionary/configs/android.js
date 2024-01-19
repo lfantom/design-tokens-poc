@@ -4,14 +4,14 @@ const semantic = require("../../tokens/semantic");
 
 module.exports = () => {
   return {
-    // iOS Core Variables
-    "app/ios/core": {
-      transformGroup: "ios-swift",
-      buildPath: `build/app/ios/core/`,
+    // Android Core Variables
+    "app/android/core": {
+      transformGroup: "android",
+      buildPath: `build/app/android/core/`,
       files: core.map((tokenCategory) => {
         return {
-          destination: `_${tokenCategory}.h`,
-          format: "ios/macros",
+          destination: `_${tokenCategory}.xml`,
+          format: "android/resources",
           filter: function (token) {
             return token.filePath.includes(`core/${tokenCategory}`);
           },
@@ -19,13 +19,13 @@ module.exports = () => {
       }),
     },
 
-    "app/ios/semantic": {
-      transformGroup: "ios-swift",
-      buildPath: `build/app/ios/semantic/`,
+    "app/android/semantic": {
+      transformGroup: "android",
+      buildPath: `build/app/android/semantic/`,
       files: semantic.map((tokenCategory) => {
         return {
-          destination: `_${tokenCategory}.h`,
-          format: "ios/macros",
+          destination: `_${tokenCategory}.xml`,
+          format: "android/resources",
           filter: function (token) {
             return token.filePath.includes(`semantic/${tokenCategory}`);
           },
@@ -34,13 +34,13 @@ module.exports = () => {
     },
 
     // Component partials
-    "app/ios/components": {
-      transformGroup: "ios-swift",
-      buildPath: `build/app/ios/components/`,
+    "app/android/components": {
+      transformGroup: "android",
+      buildPath: `build/app/android/components/`,
       files: components.map((tokenCategory) => {
         return {
-          destination: `_${tokenCategory}.h`,
-          format: "ios/macros",
+          destination: `_${tokenCategory}.xml`,
+          format: "android/resources",
           filter: function (token) {
             return token.filePath.includes(tokenCategory);
           },
