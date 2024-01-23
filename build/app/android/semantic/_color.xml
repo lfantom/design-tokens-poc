@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Tue, 23 Jan 2024 15:47:33 GMT
+-->
+<resources>
+  <color name="color_text_default">#ff475467</color>
+  <color name="color_text_heading">#ff101828</color>
+  <color name="color_text_subheading">#ff344054</color>
+  <color name="color_text_placeholder">#ff667085</color>
+  <color name="color_text_disabled">#ff98a2b3</color>
+  <color name="color_text_hover">#ff1d2939</color>
+  <color name="color_accent_default">#ff203240</color>
+  <color name="color_accent_muted">#ff101828</color>
+  
+</resources>

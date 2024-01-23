@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Tue, 23 Jan 2024 15:47:33 GMT
+-->
+<resources>
+  <string name="semantic_space_between_component_sm">8 * 1</string>
+  <string name="semantic_space_between_component_lg">8 * 2.50</string>
+  <string name="semantic_space_around_component_xs">8 * 1</string>
+  <string name="semantic_space_around_component_sm">8 * 1.25</string>
+  <string name="semantic_space_around_component_md">8 * 1.5</string>
+  <string name="semantic_space_around_component_lg">8 * 1.75</string>
+  <string name="semantic_space_around_component_xl">8 * 2</string>
+  <string name="semantic_space_around_component_2xl">8 * 2.25</string>
+  <string name="semantic_space_around_component_3xl">8 * 2.50</string>
+  <string name="semantic_space_inset_component_xs">8 * 1</string>
+  <string name="semantic_space_inset_component_sm">8 * 1.25</string>
+  <string name="semantic_space_inset_component_md">8 * 1.5</string>
+  <string name="semantic_space_inset_component_lg">8 * 1.75</string>
+  <string name="semantic_space_inset_component_xl">8 * 2</string>
+  <string name="semantic_space_inset_component_2xl">8 * 2.25</string>
+  <string name="semantic_space_inset_component_3xl">8 * 2.50</string>
+  <string name="semantic_space_inset_component_4xl">8 * 2.75</string>
+  <string name="semantic_space_inset_component_5xl">8 * 3</string>
+  <string name="semantic_space_inset_component_6xl">8 * 3.25</string>
+  <string name="semantic_space_inset_component_7xl">8 * 3.5</string>
+  <string name="semantic_border_radius_component">8 * .5</string>
+  <string name="semantic_border_width_none">0</string>
+  <string name="semantic_border_width_small">1</string>
+  <string name="semantic_border_style_default">solid</string>
+  <string name="semantic_transition_time">0.3s</string>
+  
+</resources>

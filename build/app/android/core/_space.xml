@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Tue, 23 Jan 2024 15:47:33 GMT
+-->
+<resources>
+  <string name="space_25">8 * 0.25</string>
+  <string name="space_50">8 * 0.5</string>
+  <string name="space_75">8 * 0.75</string>
+  <string name="space_100">8 * 1</string>
+  <string name="space_125">8 * 1.25</string>
+  <string name="space_150">8 * 1.5</string>
+  <string name="space_175">8 * 1.75</string>
+  <string name="space_200">8 * 2</string>
+  <string name="space_225">8 * 2.25</string>
+  <string name="space_250">8 * 2.50</string>
+  <string name="space_275">8 * 2.75</string>
+  <string name="space_300">8 * 3</string>
+  <string name="space_325">8 * 3.25</string>
+  <string name="space_350">8 * 3.5</string>
+  <string name="space_base">8</string>
+  <string name="radii_50">8 * .5</string>
+  <string name="radii_base">8</string>
+  <string name="border_width_1">1</string>
+  <string name="border_width_none">0</string>
+  <string name="border_style_solid">solid</string>
+  
+</resources>

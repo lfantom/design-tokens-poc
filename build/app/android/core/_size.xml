@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Tue, 23 Jan 2024 15:47:33 GMT
+-->
+<resources>
+  <dimen name="size_xsmall">16.00dp</dimen>
+  <dimen name="size_xlarge">384.00dp</dimen>
+  <dimen name="size_large">256.00dp</dimen>
+  <dimen name="size_medium">128.00dp</dimen>
+  <dimen name="size_small">32.00dp</dimen>
+  <string name="primary">#4B53DE</string>
+  <string name="secondary">#FF3030</string>
+  
+</resources>
