@@ -23,6 +23,17 @@ jobs:
       - name: Bump Version
         run: npm version patch --prefix build/scss
 
+      - name: List Files in Directory
+        run: ls -la build/scss
+
+      - name: Debug Info
+        run: |
+          pwd
+          ls -la
+          ls -la build
+          ls -la build/scss
+        shell: bash
+
       - name: Show Updated Package Content
         run: cat build/scss/package.json
         working-directory: build/scss
