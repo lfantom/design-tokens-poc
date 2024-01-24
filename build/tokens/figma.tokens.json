@@ -456,39 +456,39 @@
         }
       },
       "text": {
-        "default": {
-          "value": "{color.grey.600}",
-          "type": "color"
-        },
-        "heading": {
-          "value": "{color.grey.900}",
-          "type": "color"
-        },
-        "subheading": {
-          "value": "{color.grey.700}",
-          "type": "color"
-        },
-        "placeholder": {
-          "value": "{color.grey.500}",
-          "type": "color"
+        "hover": {
+          "type": "color",
+          "value": "#1d2939"
         },
         "disabled": {
-          "value": "{color.grey.400}",
-          "type": "color"
+          "type": "color",
+          "value": "#98a2b3"
         },
-        "hover": {
-          "value": "{color.grey.800}",
-          "type": "color"
+        "placeholder": {
+          "type": "color",
+          "value": "#667085"
+        },
+        "subheading": {
+          "type": "color",
+          "value": "#344054"
+        },
+        "heading": {
+          "type": "color",
+          "value": "#101828"
+        },
+        "default": {
+          "type": "color",
+          "value": "#475467"
         }
       },
       "accent": {
-        "default": {
-          "value": "{color.primary.900}",
-          "type": "color"
-        },
         "muted": {
-          "value": "{color.grey.900}",
-          "type": "color"
+          "type": "color",
+          "value": "#101828"
+        },
+        "default": {
+          "type": "color",
+          "value": "#203240"
         }
       }
     },
@@ -615,17 +615,17 @@
       "family": {
         "default": {
           "value": "'Open Sans', sans-serif",
-          "type": "fontFamily"
+          "type": "fontFa$mily"
         }
       },
       "weight": {
         "semibold": {
           "value": "600",
-          "type": "fontWeight"
+          "type": "fontWe$ight"
         },
         "bold": {
           "value": "700",
-          "type": "fontWeight"
+          "type": "fontWe$ight"
         }
       },
       "size": {
@@ -666,41 +666,41 @@
         },
         "base": {
           "value": "16",
-          "type": "fontSizes"
+          "type": "fontS$izes"
         }
       },
       "height": {
         "200": {
           "value": "1.5 * 0.75",
-          "type": "lineHeight"
+          "type": "lineHe$ight"
         },
         "300": {
           "value": "1.5 * 0.875",
-          "type": "lineHeight"
+          "type": "lineHe$ight"
         },
         "400": {
           "value": "{typography.height.base}",
-          "type": "lineHeight"
+          "type": "lineHe$ight"
         },
         "500": {
           "value": "1.5 * 1.125",
-          "type": "lineHeight"
+          "type": "lineHe$ight"
         },
         "600": {
           "value": "1.5 * 1.25",
-          "type": "lineHeight"
+          "type": "lineHe$ight"
         },
         "700": {
           "value": "1.5 * 1.5",
-          "type": "lineHeight"
+          "type": "lineHe$ight"
         },
         "800": {
           "value": "1.5 * 1.875",
-          "type": "lineHeight"
+          "type": "lineHe$ight"
         },
         "base": {
           "value": "1.5",
-          "type": "lineHeight"
+          "type": "lineHe$ight"
         }
       }
     },
