@@ -443,7 +443,7 @@
       "accent": {
         "default": {
           "type": "color",
-          "value": "#0fff50"
+          "value": "#203240"
         },
         "muted": {
           "type": "color",

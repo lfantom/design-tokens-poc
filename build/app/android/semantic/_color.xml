@@ -2,10 +2,10 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 24 Jan 2024 14:03:22 GMT
+  Generated on Wed, 24 Jan 2024 15:24:17 GMT
 -->
 <resources>
-  <color name="color_accent_default">#ff0fff50</color>
+  <color name="color_accent_default">#ff203240</color>
   <color name="color_accent_muted">#ff101828</color>
   <color name="color_text_default">#ff475467</color>
   <color name="color_text_heading">#ff101828</color>

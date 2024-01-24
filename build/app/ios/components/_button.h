@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 24 Jan 2024 14:03:22 GMT
+// Generated on Wed, 24 Jan 2024 15:24:17 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -18,9 +18,9 @@
 #define buttonDefaultBorder [object Object]
 #define buttonDefaultBorderRadius 8 * .5
 #define buttonDefaultTransitionTime 0.3s
-#define buttonPrimaryBackgroundColor UIColor(red: 0.059, green: 1.000, blue: 0.314, alpha: 1)
+#define buttonPrimaryBackgroundColor UIColor(red: 0.125, green: 0.196, blue: 0.251, alpha: 1)
 #define buttonPrimaryTextColor UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
-#define buttonPrimaryBorderColor UIColor(red: 0.059, green: 1.000, blue: 0.314, alpha: 1)
+#define buttonPrimaryBorderColor UIColor(red: 0.125, green: 0.196, blue: 0.251, alpha: 1)
 #define buttonPrimaryHoverBackgroundColor UIColor(red: 0.063, green: 0.094, blue: 0.157, alpha: 1)
 #define buttonPrimaryHoverBorderColor UIColor(red: 0.063, green: 0.094, blue: 0.157, alpha: 1)
 #define buttonSecondaryBackgroundColor UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
