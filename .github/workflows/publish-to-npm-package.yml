@@ -1,12 +1,17 @@
 name: "Publish to npm package"
 
-on:
-  release:
-    types: [created]
+# on:
+#   release:
+#     types: [created]
+
+on: workflow_dispatch
 
 jobs:
   publish-npm:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: build/scss
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -22,11 +27,8 @@ jobs:
 
       - name: Set Git User Identity
         run: |
-          git config --global user.email "uxdev@jet2.com"
-          git config --global user.name "UX Dev"
-
-      - name: Change Directory to build/scss
-        run: cd build/scss
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
 
       - name: Bump Version
         run: npm version patch
