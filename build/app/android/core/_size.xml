@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 24 Jan 2024 08:42:39 GMT
+  Generated on Wed, 24 Jan 2024 08:44:33 GMT
 -->
 <resources>
   <dimen name="size_xsmall">16.00dp</dimen>
@@ -10,7 +10,5 @@
   <dimen name="size_large">256.00dp</dimen>
   <dimen name="size_medium">128.00dp</dimen>
   <dimen name="size_small">32.00dp</dimen>
-  <string name="primary">#4B53DE</string>
-  <string name="secondary">#FF3030</string>
   
 </resources>

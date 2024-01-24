@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 24 Jan 2024 08:42:39 GMT
+// Generated on Wed, 24 Jan 2024 08:44:33 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -15,6 +15,4 @@
 #define sizeLarge CGFloat(256.00)
 #define sizeMedium CGFloat(128.00)
 #define sizeSmall CGFloat(32.00)
-#define primary #4B53DE
-#define secondary #FF3030
 
