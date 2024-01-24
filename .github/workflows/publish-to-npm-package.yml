@@ -21,12 +21,11 @@ jobs:
         run: npm ci
 
       - name: Bump Version
-        run: |
-          npm version patch --prefix build/scss
-          cd build/scss && npm version patch
+        run: npm version patch --prefix build/scss
 
       - name: Show Updated Package Content
         run: cat build/scss/package.json
+        working-directory: build/scss
 
       - name: Publish to npm
         run: npm publish --access public
