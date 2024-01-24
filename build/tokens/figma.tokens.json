@@ -440,40 +440,40 @@
           "type": "color"
         }
       },
+      "accent": {
+        "default": {
+          "type": "color",
+          "value": "#0fff50"
+        },
+        "muted": {
+          "type": "color",
+          "value": "#101828"
+        }
+      },
       "text": {
-        "hover": {
+        "default": {
           "type": "color",
-          "value": "#1d2939"
-        },
-        "disabled": {
-          "type": "color",
-          "value": "#98a2b3"
-        },
-        "placeholder": {
-          "type": "color",
-          "value": "#667085"
-        },
-        "subheading": {
-          "type": "color",
-          "value": "#344054"
+          "value": "#475467"
         },
         "heading": {
           "type": "color",
           "value": "#101828"
         },
-        "default": {
+        "subheading": {
           "type": "color",
-          "value": "#475467"
-        }
-      },
-      "accent": {
-        "muted": {
-          "type": "color",
-          "value": "#101828"
+          "value": "#344054"
         },
-        "default": {
+        "placeholder": {
           "type": "color",
-          "value": "#203240"
+          "value": "#667085"
+        },
+        "disabled": {
+          "type": "color",
+          "value": "#98a2b3"
+        },
+        "hover": {
+          "type": "color",
+          "value": "#1d2939"
         }
       }
     },
