@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 24 Jan 2024 10:52:41 GMT
+  Generated on Wed, 24 Jan 2024 12:07:09 GMT
 -->
 <resources>
   <string name="button_default_text_size">16</string>
@@ -28,14 +28,14 @@
   <string name="button_minimal_text_decoration_size">1</string>
   <string name="button_minimal_hover_text_color">#ff101828</string>
   <string name="button_xs_text_size">16 * 0.875</string>
-  <string name="button_xs_padding">[object Object]</string>
+  <string name="button_xs_padding">8 * 1 8 * 1.75</string>
   <string name="button_sm_text_size">16 * 0.875</string>
-  <string name="button_sm_padding">[object Object]</string>
+  <string name="button_sm_padding">8 * 1.25 8 * 2</string>
   <string name="button_md_text_size">16</string>
-  <string name="button_md_padding">[object Object]</string>
+  <string name="button_md_padding">8 * 1.25 8 * 2.25</string>
   <string name="button_lg_text_size">16</string>
-  <string name="button_lg_padding">[object Object]</string>
+  <string name="button_lg_padding">8 * 1.5 8 * 2.50</string>
   <string name="button_xl_text_size">16 * 1.125</string>
-  <string name="button_xl_padding">[object Object]</string>
+  <string name="button_xl_padding">8 * 2 8 * 3.5</string>
   
 </resources>

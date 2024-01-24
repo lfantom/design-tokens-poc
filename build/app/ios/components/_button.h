@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 24 Jan 2024 10:52:41 GMT
+// Generated on Wed, 24 Jan 2024 12:07:09 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -33,13 +33,13 @@
 #define buttonMinimalTextDecorationSize 1
 #define buttonMinimalHoverTextColor UIColor(red: 0.063, green: 0.094, blue: 0.157, alpha: 1)
 #define buttonXsTextSize 16 * 0.875
-#define buttonXsPadding [object Object]
+#define buttonXsPadding 8 * 1 8 * 1.75
 #define buttonSmTextSize 16 * 0.875
-#define buttonSmPadding [object Object]
+#define buttonSmPadding 8 * 1.25 8 * 2
 #define buttonMdTextSize 16
-#define buttonMdPadding [object Object]
+#define buttonMdPadding 8 * 1.25 8 * 2.25
 #define buttonLgTextSize 16
-#define buttonLgPadding [object Object]
+#define buttonLgPadding 8 * 1.5 8 * 2.50
 #define buttonXlTextSize 16 * 1.125
-#define buttonXlPadding [object Object]
+#define buttonXlPadding 8 * 2 8 * 3.5
 

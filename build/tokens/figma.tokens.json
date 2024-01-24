@@ -144,10 +144,7 @@
           }
         },
         "padding": {
-          "value": {
-            "y": "{semantic.space-inset.component.xs}",
-            "x": "{semantic.space-inset.component.lg}"
-          },
+          "value": "{semantic.space-inset.component.xs} {semantic.space-inset.component.lg}",
           "type": "spacing"
         }
       },
@@ -159,10 +156,7 @@
           }
         },
         "padding": {
-          "value": {
-            "y": "{semantic.space-inset.component.sm}",
-            "x": "{semantic.space-inset.component.xl}"
-          },
+          "value": "{semantic.space-inset.component.sm} {semantic.space-inset.component.xl}",
           "type": "spacing"
         }
       },
@@ -174,10 +168,7 @@
           }
         },
         "padding": {
-          "value": {
-            "y": "{semantic.space-inset.component.sm}",
-            "x": "{semantic.space-inset.component.2xl}"
-          },
+          "value": "{semantic.space-inset.component.sm} {semantic.space-inset.component.2xl}",
           "type": "spacing"
         }
       },
@@ -189,10 +180,7 @@
           }
         },
         "padding": {
-          "value": {
-            "y": "{semantic.space-inset.component.md}",
-            "x": "{semantic.space-inset.component.3xl}"
-          },
+          "value": "{semantic.space-inset.component.md} {semantic.space-inset.component.3xl}",
           "type": "spacing"
         }
       },
@@ -204,10 +192,7 @@
           }
         },
         "padding": {
-          "value": {
-            "y": "{semantic.space-inset.component.xl}",
-            "x": "{semantic.space-inset.component.7xl}"
-          },
+          "value": "{semantic.space-inset.component.xl} {semantic.space-inset.component.7xl}",
           "type": "spacing"
         }
       }
