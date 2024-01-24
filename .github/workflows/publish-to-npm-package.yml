@@ -36,6 +36,14 @@ jobs:
       - name: Show Updated Package Content
         run: cat package.json
 
+      - name: Commit Version Bump
+        run: |
+          git add .
+          git commit -m "Bump version to $(node -e "console.log(require('./package.json').version)")"
+
+      - name: Push Changes
+        run: git push origin HEAD:main
+
       - name: Publish to npm
         run: npm publish --access public
         env:
