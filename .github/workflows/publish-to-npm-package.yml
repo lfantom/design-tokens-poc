@@ -26,9 +26,6 @@ jobs:
       - name: Change Directory to build/scss
         run: cd build/scss
 
-      - name: Copy package-lock to build/scss
-        run: cp ../../package-lock.json .
-
       - name: Install Dependencies
         run: npm ci
 
