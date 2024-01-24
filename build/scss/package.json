@@ -1,0 +1,23 @@
+{
+  "name": "@jet2/design-tokens-web",
+  "version": "0.0.1",
+  "description": "Style variables for web",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jet2/design-tokens-web"
+  },
+  "keywords": [
+    "design-tokens",
+    "style-variables"
+  ],
+  "author": {
+    "name": "UX Dev",
+    "email": "uxdev@jet2.com",
+    "url": "https://www.jet2.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jet2/design-tokens-web/issues"
+  },
+  "homepage": "https://github.com/jet2/design-tokens-web#readme"
+}
