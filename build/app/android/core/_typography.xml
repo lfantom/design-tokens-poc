@@ -2,12 +2,12 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 24 Jan 2024 09:18:27 GMT
+  Generated on Wed, 24 Jan 2024 10:28:35 GMT
 -->
 <resources>
-  <string name="typography_family_default">'Open Sans', sans-serif</string>
-  <string name="typography_weight_semibold">600</string>
-  <string name="typography_weight_bold">700</string>
+  <string name="typography_family_default">Open Sans</string>
+  <string name="typography_weight_semibold">SemiBold</string>
+  <string name="typography_weight_bold">Bold</string>
   <string name="typography_size_200">16 * 0.75</string>
   <string name="typography_size_300">16 * 0.875</string>
   <string name="typography_size_400">16</string>
@@ -16,13 +16,13 @@
   <string name="typography_size_700">16 * 1.5</string>
   <string name="typography_size_800">16 * 1.875</string>
   <string name="typography_size_base">16</string>
-  <string name="typography_height_200">1.5 * 0.75</string>
-  <string name="typography_height_300">1.5 * 0.875</string>
-  <string name="typography_height_400">1.5</string>
-  <string name="typography_height_500">1.5 * 1.125</string>
-  <string name="typography_height_600">1.5 * 1.25</string>
-  <string name="typography_height_700">1.5 * 1.5</string>
-  <string name="typography_height_800">1.5 * 1.875</string>
-  <string name="typography_height_base">1.5</string>
+  <string name="typography_height_200">150% * 0.75</string>
+  <string name="typography_height_300">150% * 0.875</string>
+  <string name="typography_height_400">150%</string>
+  <string name="typography_height_500">150% * 1.125</string>
+  <string name="typography_height_600">150% * 1.25</string>
+  <string name="typography_height_700">150% * 1.5</string>
+  <string name="typography_height_800">150% * 1.875</string>
+  <string name="typography_height_base">150%</string>
   
 </resources>

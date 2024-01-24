@@ -2,14 +2,14 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 24 Jan 2024 09:18:27 GMT
+  Generated on Wed, 24 Jan 2024 10:28:35 GMT
 -->
 <resources>
   <string name="button_default_text_size">16</string>
-  <string name="button_default_text_family">'Open Sans', sans-serif</string>
+  <string name="button_default_text_family">Open Sans</string>
   <string name="button_default_text_color">#ff344054</string>
-  <string name="button_default_text_weight">600</string>
-  <string name="button_default_text_height">1.5</string>
+  <string name="button_default_text_weight">SemiBold</string>
+  <string name="button_default_text_height">150%</string>
   <string name="button_default_border">[object Object]</string>
   <string name="button_default_border_radius">8 * .5</string>
   <string name="button_default_transition_time">0.3s</string>

@@ -4,17 +4,17 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 24 Jan 2024 09:18:27 GMT
+// Generated on Wed, 24 Jan 2024 10:28:35 GMT
 
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
 #define buttonDefaultTextSize 16
-#define buttonDefaultTextFamily 'Open Sans', sans-serif
+#define buttonDefaultTextFamily Open Sans
 #define buttonDefaultTextColor UIColor(red: 0.204, green: 0.251, blue: 0.329, alpha: 1)
-#define buttonDefaultTextWeight 600
-#define buttonDefaultTextHeight 1.5
+#define buttonDefaultTextWeight SemiBold
+#define buttonDefaultTextHeight 150%
 #define buttonDefaultBorder [object Object]
 #define buttonDefaultBorderRadius 8 * .5
 #define buttonDefaultTransitionTime 0.3s
