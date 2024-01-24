@@ -606,17 +606,17 @@
       "family": {
         "default": {
           "value": "'Open Sans', sans-serif",
-          "type": "fontFa$mily"
+          "type": "fontFamily"
         }
       },
       "weight": {
         "semibold": {
           "value": "600",
-          "type": "fontWe$ight"
+          "type": "fontWeight"
         },
         "bold": {
           "value": "700",
-          "type": "fontWe$ight"
+          "type": "fontWeight"
         }
       },
       "size": {
@@ -657,41 +657,41 @@
         },
         "base": {
           "value": "16",
-          "type": "fontS$izes"
+          "type": "fontSizes"
         }
       },
       "height": {
         "200": {
           "value": "1.5 * 0.75",
-          "type": "lineHe$ight"
+          "type": "lineHeight"
         },
         "300": {
           "value": "1.5 * 0.875",
-          "type": "lineHe$ight"
+          "type": "lineHeight"
         },
         "400": {
           "value": "{typography.height.base}",
-          "type": "lineHe$ight"
+          "type": "lineHeight"
         },
         "500": {
           "value": "1.5 * 1.125",
-          "type": "lineHe$ight"
+          "type": "lineHeight"
         },
         "600": {
           "value": "1.5 * 1.25",
-          "type": "lineHe$ight"
+          "type": "lineHeight"
         },
         "700": {
           "value": "1.5 * 1.5",
-          "type": "lineHe$ight"
+          "type": "lineHeight"
         },
         "800": {
           "value": "1.5 * 1.875",
-          "type": "lineHe$ight"
+          "type": "lineHeight"
         },
         "base": {
           "value": "1.5",
-          "type": "lineHe$ight"
+          "type": "lineHeight"
         }
       }
     },
