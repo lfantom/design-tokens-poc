@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Jan 2024 10:28:35 GMT
+ * Generated on Wed, 24 Jan 2024 10:48:44 GMT
  */
 
 :root {
-  --textBodyFamilyPrimary: Open Sans;
+  --textBodyFamilyPrimary: 'Open Sans';
   --textBodySizeDefault: 16px;
   --textBodySizeXs: 12px; /* 12px */
   --textBodySizeSm: 14px; /* 14px */
@@ -13,16 +13,16 @@
   --textBodySizeXl: 20px; /* 20px */
   --textBodySize2xl: 24px; /* 24px */
   --textBodySize3xl: 30px; /* 30px */
-  --textBodyWeightRegular: SemiBold;
-  --textBodyWeightBold: Bold;
-  --textBodyHeightDefault: 150%;
-  --textBodyHeightXs: 112.5%;
-  --textBodyHeightSm: 131.25%;
-  --textBodyHeightMd: 150%;
-  --textBodyHeightLg: 168.75%;
-  --textBodyHeightXl: 187.5%;
-  --textBodyHeight2xl: 225%;
-  --textBodyHeight3xl: 281.25%;
+  --textBodyWeightRegular: 600;
+  --textBodyWeightBold: 700;
+  --textBodyHeightDefault: 1.5;
+  --textBodyHeightXs: 1.125;
+  --textBodyHeightSm: 1.313;
+  --textBodyHeightMd: 1.5;
+  --textBodyHeightLg: 1.688;
+  --textBodyHeightXl: 1.875;
+  --textBodyHeight2xl: 2.25;
+  --textBodyHeight3xl: 2.813;
   --textDecorationStyleNone: none;
   --textDecorationStyleUnderline: underline;
   --textDecorationThickness: 1px;

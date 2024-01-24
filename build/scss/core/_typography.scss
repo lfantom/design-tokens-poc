@@ -1,12 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Jan 2024 10:28:35 GMT
+ * Generated on Wed, 24 Jan 2024 10:48:44 GMT
  */
 
 :root {
-  --typographyFamilyDefault: Open Sans;
-  --typographyWeightSemibold: SemiBold;
-  --typographyWeightBold: Bold;
+  --typographyFamilyDefault: 'Open Sans';
+  --typographyWeightSemibold: 600;
+  --typographyWeightBold: 700;
   --typographySize200: 12px; /* 12px */
   --typographySize300: 14px; /* 14px */
   --typographySize400: 16px; /* 16px */
@@ -15,12 +15,12 @@
   --typographySize700: 24px; /* 24px */
   --typographySize800: 30px; /* 30px */
   --typographySizeBase: 16px;
-  --typographyHeight200: 112.5%;
-  --typographyHeight300: 131.25%;
-  --typographyHeight400: 150%;
-  --typographyHeight500: 168.75%;
-  --typographyHeight600: 187.5%;
-  --typographyHeight700: 225%;
-  --typographyHeight800: 281.25%;
-  --typographyHeightBase: 150%;
+  --typographyHeight200: 1.125;
+  --typographyHeight300: 1.313;
+  --typographyHeight400: 1.5;
+  --typographyHeight500: 1.688;
+  --typographyHeight600: 1.875;
+  --typographyHeight700: 2.25;
+  --typographyHeight800: 2.813;
+  --typographyHeightBase: 1.5;
 }
