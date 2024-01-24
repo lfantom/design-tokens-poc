@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 24 Jan 2024 08:40:19 GMT
+  Generated on Wed, 24 Jan 2024 08:42:39 GMT
 -->
 <resources>
   <color name="color_text_hover">#ff1d2939</color>
@@ -12,6 +12,6 @@
   <color name="color_text_heading">#ff101828</color>
   <color name="color_text_default">#ff475467</color>
   <color name="color_accent_muted">#ff101828</color>
-  <color name="color_accent_default">#ff83488d</color>
+  <color name="color_accent_default">#ff203240</color>
   
 </resources>

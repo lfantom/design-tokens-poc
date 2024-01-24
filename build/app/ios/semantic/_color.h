@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 24 Jan 2024 08:40:19 GMT
+// Generated on Wed, 24 Jan 2024 08:42:39 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -17,5 +17,5 @@
 #define colorTextHeading UIColor(red: 0.063, green: 0.094, blue: 0.157, alpha: 1)
 #define colorTextDefault UIColor(red: 0.278, green: 0.329, blue: 0.404, alpha: 1)
 #define colorAccentMuted UIColor(red: 0.063, green: 0.094, blue: 0.157, alpha: 1)
-#define colorAccentDefault UIColor(red: 0.514, green: 0.282, blue: 0.553, alpha: 1)
+#define colorAccentDefault UIColor(red: 0.125, green: 0.196, blue: 0.251, alpha: 1)
 
