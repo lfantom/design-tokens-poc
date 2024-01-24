@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Tue, 23 Jan 2024 15:47:33 GMT
+-->
+<resources>
+  <string name="typography_family_default">'Open Sans', sans-serif</string>
+  <string name="typography_weight_semibold">600</string>
+  <string name="typography_weight_bold">700</string>
+  <string name="typography_size_200">16 * 0.75</string>
+  <string name="typography_size_300">16 * 0.875</string>
+  <string name="typography_size_400">16</string>
+  <string name="typography_size_500">16 * 1.125</string>
+  <string name="typography_size_600">16 * 1.25</string>
+  <string name="typography_size_700">16 * 1.5</string>
+  <string name="typography_size_800">16 * 1.875</string>
+  <string name="typography_size_base">16</string>
+  <string name="typography_height_200">1.5 * 0.75</string>
+  <string name="typography_height_300">1.5 * 0.875</string>
+  <string name="typography_height_400">1.5</string>
+  <string name="typography_height_500">1.5 * 1.125</string>
+  <string name="typography_height_600">1.5 * 1.25</string>
+  <string name="typography_height_700">1.5 * 1.5</string>
+  <string name="typography_height_800">1.5 * 1.875</string>
+  <string name="typography_height_base">1.5</string>
+  
+</resources>
