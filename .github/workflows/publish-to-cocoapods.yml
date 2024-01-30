@@ -42,7 +42,7 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          cd ${{ github.workspace }}/build/app/ios/
+          cd build/app/ios/
           git config --local user.email "uxdev@jet2.com"
           git config --local user.name "GitHub Action"
           git add DesignTokensiOS.podspec
