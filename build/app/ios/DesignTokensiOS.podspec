@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DesignTokensiOS'
-  s.version          = '0.0.7'
+  s.version = ''
   s.summary          = 'Design system tokens in iOS format'
   s.description      = 'Design system tokens in iOS format, uploaded to Cocoapods'
   s.homepage         = 'https://www.jet2.com'
