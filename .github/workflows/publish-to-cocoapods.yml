@@ -65,6 +65,9 @@ jobs:
           git commit -m "Bump version to ${VERSION} in DesignTokensiOS.podspec"
           git push origin HEAD
 
+      - name: List Tags
+        run: git tag -l
+
       - name: Lint CocoaPods
         run: bundle exec pod lib lint DesignTokensiOS.podspec
 
