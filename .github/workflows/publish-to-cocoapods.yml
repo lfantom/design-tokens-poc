@@ -1,0 +1,57 @@
+name: "Publish to CocoaPods for iOS"
+
+on:
+  workflow_dispatch:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: build/app/ios
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set Up Xcode
+        uses: actions/setup-xcode@v2
+        with:
+          xcode-version: "13.0"
+
+      - name: Install CocoaPods
+        run: |
+          gem install bundler
+          bundle install
+          bundle exec pod install
+
+      - name: Build and Test
+        run: xcodebuild -workspace DesignTokensiOS.xcworkspace -scheme YourScheme clean build test
+
+      - name: Set Version
+        id: version
+        run: |
+          echo "VERSION=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
+          echo "VERSION=${VERSION:1}" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Update Podspec Version
+        run: sed -i '' "s/s.version *= *'[0-9]*\.[0-9]*\.[0-9]*'/s.version = '$(echo ${VERSION})'/" DesignTokensiOS.podspec
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "uxdev@jet2.com"
+          git config --local user.name "GitHub Action"
+          git add DesignTokensiOS.podspec
+          git commit -m "Bump version to ${VERSION} in DesignTokensiOS.podspec"
+          git push
+
+      - name: Lint CocoaPods
+        run: bundle exec pod lib lint
+
+      - name: Push to CocoaPods
+        run: bundle exec pod trunk push --allow-warnings
+        env:
+          COCOAPODS_PODSPEC_NAME: DesignTokensiOS.podspec
