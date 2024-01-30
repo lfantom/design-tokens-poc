@@ -50,7 +50,7 @@ jobs:
           git push origin HEAD
 
       - name: Lint CocoaPods
-        run: bundle exec pod lib lint
+        run: bundle exec pod lib lint DesignTokensiOS.podspec
 
       - name: Push to CocoaPods
         run: bundle exec pod trunk push --allow-warnings
