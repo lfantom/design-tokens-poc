@@ -19,7 +19,7 @@ jobs:
       - name: Set Up Xcode
         uses: actions/setup-xcode@v2
         with:
-          xcode-version: "13.0"
+          xcode-version: "12.5"
 
       - name: Install CocoaPods
         run: |
