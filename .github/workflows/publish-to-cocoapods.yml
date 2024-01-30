@@ -26,9 +26,9 @@ jobs:
 
       - name: Bundle Install
         run: bundle install
-        working-directory: path/to/your/project
+        working-directory: ../build/app/ios/.gemfile
         env:
-          BUNDLE_GEMFILE: path/to/your/project/.gemfile
+          BUNDLE_GEMFILE: ../build/app/ios/.gemfile/.gemfile
 
       - name: Build and Test
         run: xcodebuild -workspace DesignTokensiOS.xcworkspace -scheme YourScheme clean build test
