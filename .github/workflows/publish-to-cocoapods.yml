@@ -44,7 +44,7 @@ jobs:
           git config --local user.email "uxdev@jet2.com"
           git config --local user.name "GitHub Action"
           git status
-          git add -A
+          git add .
           git status
           git commit -m "Bump version to ${VERSION} in DesignTokensiOS.podspec"
           git push origin HEAD
