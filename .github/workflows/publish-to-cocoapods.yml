@@ -32,8 +32,11 @@ jobs:
       - name: Set Version
         id: version
         run: |
-          echo "VERSION=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
-          echo "VERSION=${VERSION:1}" >> $GITHUB_ENV
+          VERSION=$(git describe --tags --abbrev=0)
+          if [ -z "$VERSION" ]; then
+            VERSION=$(git rev-parse --short HEAD)
+          fi
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
         shell: bash
 
       - name: Update Podspec Version
