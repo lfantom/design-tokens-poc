@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 30 Jan 2024 13:23:14 GMT
+// Generated on Tue, 30 Jan 2024 14:07:31 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -28,8 +28,6 @@
 #define colorSuccessMedium UIColor(red: 0.651, green: 0.957, blue: 0.773, alpha: 1)
 #define colorSuccessSoft UIColor(red: 0.925, green: 0.992, blue: 0.953, alpha: 1)
 #define colorSuccessLight UIColor(red: 0.965, green: 0.996, blue: 0.976, alpha: 1)
-#define colorAccentDefault UIColor(red: 0.125, green: 0.196, blue: 0.251, alpha: 1)
-#define colorAccentMuted UIColor(red: 0.063, green: 0.094, blue: 0.157, alpha: 1)
 #define colorTextHover UIColor(red: 0.114, green: 0.161, blue: 0.224, alpha: 1)
 #define colorTextDisabled UIColor(red: 0.596, green: 0.635, blue: 0.702, alpha: 1)
 #define colorTextPlaceholder UIColor(red: 0.400, green: 0.439, blue: 0.522, alpha: 1)
@@ -42,4 +40,6 @@
 #define colorInfoMedium UIColor(red: 0.698, green: 0.867, blue: 1.000, alpha: 1)
 #define colorInfoSoft UIColor(red: 0.937, green: 0.973, blue: 1.000, alpha: 1)
 #define colorInfoLight UIColor(red: 0.961, green: 0.980, blue: 1.000, alpha: 1)
+#define colorAccentDefault UIColor(red: 1.000, green: 0.549, blue: 0.247, alpha: 1)
+#define colorAccentMuted UIColor(red: 0.063, green: 0.094, blue: 0.157, alpha: 1)
 

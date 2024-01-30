@@ -512,16 +512,6 @@
           "value": "#f6fef9"
         }
       },
-      "accent": {
-        "default": {
-          "type": "color",
-          "value": "#203240"
-        },
-        "muted": {
-          "type": "color",
-          "value": "#101828"
-        }
-      },
       "text": {
         "hover": {
           "type": "color",
@@ -572,6 +562,16 @@
         "light": {
           "type": "color",
           "value": "#f5faff"
+        }
+      },
+      "accent": {
+        "default": {
+          "type": "color",
+          "value": "#ff8c3f"
+        },
+        "muted": {
+          "type": "color",
+          "value": "#101828"
         }
       }
     },
