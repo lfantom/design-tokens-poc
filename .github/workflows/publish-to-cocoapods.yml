@@ -26,9 +26,9 @@ jobs:
 
       - name: Bundle Install
         run: bundle install
-        working-directory: build/app/ios/.gemfile
+        working-directory: build/app/ios/
         env:
-          BUNDLE_GEMFILE: build/app/ios/.gemfile/.gemfile
+          BUNDLE_GEMFILE: .gemfile
 
       - name: Build and Test
         run: xcodebuild -workspace DesignTokensiOS.xcworkspace -scheme YourScheme clean build test
@@ -49,7 +49,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add DesignTokensiOS.podspec
           git commit -m "Bump version to ${VERSION} in DesignTokensiOS.podspec"
-          git push
+          git push origin HEAD
 
       - name: Lint CocoaPods
         run: bundle exec pod lib lint
