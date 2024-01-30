@@ -1,9 +1,27 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Jan 2024 16:08:54 GMT
+ * Generated on Tue, 30 Jan 2024 09:19:07 GMT
  */
 
 :root {
+  --colorErrorLight: #FFFBFA;
+  --colorErrorSoft: #FEF3F2;
+  --colorErrorMedium: #FECDC;
+  --colorErrorBright: #F97066;
+  --colorErrorPrimary: #D92D20;
+  --colorErrorDark: #B42318;
+  --colorWarningLight: #FFFCF5;
+  --colorWarningSoft: #FFFAEB;
+  --colorWarningMedium: #FEDF89;
+  --colorWarningBright: #FDB022;
+  --colorWarningPrimary: #DC6803;
+  --colorWarningDark: #B54708;
+  --colorSuccessLight: #F6FEF9;
+  --colorSuccessSoft: #ECFDF3;
+  --colorSuccessMedium: #A6F4C5;
+  --colorSuccessBright: #32D583;
+  --colorSuccessPrimary: #039855;
+  --colorSuccessDark: #027A48;
   --colorAccentDefault: #203240;
   --colorAccentMuted: #101828;
   --colorTextDefault: #475467;
@@ -12,4 +30,10 @@
   --colorTextPlaceholder: #667085;
   --colorTextDisabled: #98A2B3;
   --colorTextHover: #1D2939;
+  --colorInfoLight: #F5FAFF;
+  --colorInfoSoft: #EFF8FF;
+  --colorInfoMedium: #B2DDFF;
+  --colorInfoBright: #53B1FD;
+  --colorInfoPrimary: #1570EF;
+  --colorInfoDark: #175CD3;
 }
