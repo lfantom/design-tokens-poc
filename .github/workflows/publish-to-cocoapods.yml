@@ -16,11 +16,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Set Up Xcode
-        uses: maxim-lobanov/setup-xcode@v1
-        with:
-          xcode-version: "14.2.0"
-
       - name: Install Bundler
         run: gem install bundler
 
@@ -29,9 +24,6 @@ jobs:
         working-directory: build/app/ios/
         env:
           BUNDLE_GEMFILE: .gemfile
-
-      - name: Build and Test
-        run: xcodebuild -workspace DesignTokensiOS.xcworkspace -scheme YourScheme clean build test
 
       - name: Set Version
         id: version
