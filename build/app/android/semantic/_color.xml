@@ -2,40 +2,40 @@
 
 <!--
   Do not edit directly
-  Generated on Tue, 30 Jan 2024 09:19:07 GMT
+  Generated on Tue, 30 Jan 2024 13:15:30 GMT
 -->
 <resources>
-  <color name="color_error_light">#fffffbfa</color>
-  <color name="color_error_soft">#fffef3f2</color>
-  <color name="color_error_medium">#ff000000</color>
-  <color name="color_error_bright">#fff97066</color>
-  <color name="color_error_primary">#ffd92d20</color>
   <color name="color_error_dark">#ffb42318</color>
-  <color name="color_warning_light">#fffffcf5</color>
-  <color name="color_warning_soft">#fffffaeb</color>
-  <color name="color_warning_medium">#fffedf89</color>
-  <color name="color_warning_bright">#fffdb022</color>
-  <color name="color_warning_primary">#ffdc6803</color>
+  <color name="color_error_primary">#ffd92d20</color>
+  <color name="color_error_bright">#fff97066</color>
+  <color name="color_error_medium">#ff000000</color>
+  <color name="color_error_soft">#fffef3f2</color>
+  <color name="color_error_light">#fffffbfa</color>
   <color name="color_warning_dark">#ffb54708</color>
-  <color name="color_success_light">#fff6fef9</color>
-  <color name="color_success_soft">#ffecfdf3</color>
-  <color name="color_success_medium">#ffa6f4c5</color>
-  <color name="color_success_bright">#ff32d583</color>
-  <color name="color_success_primary">#ff039855</color>
+  <color name="color_warning_primary">#ffdc6803</color>
+  <color name="color_warning_bright">#fffdb022</color>
+  <color name="color_warning_medium">#fffedf89</color>
+  <color name="color_warning_soft">#fffffaeb</color>
+  <color name="color_warning_light">#fffffcf5</color>
   <color name="color_success_dark">#ff027a48</color>
-  <color name="color_accent_default">#ff203240</color>
-  <color name="color_accent_muted">#ff101828</color>
-  <color name="color_text_default">#ff475467</color>
-  <color name="color_text_heading">#ff101828</color>
-  <color name="color_text_subheading">#ff344054</color>
-  <color name="color_text_placeholder">#ff667085</color>
-  <color name="color_text_disabled">#ff98a2b3</color>
+  <color name="color_success_primary">#ff039855</color>
+  <color name="color_success_bright">#ff32d583</color>
+  <color name="color_success_medium">#ffa6f4c5</color>
+  <color name="color_success_soft">#ffecfdf3</color>
+  <color name="color_success_light">#fff6fef9</color>
   <color name="color_text_hover">#ff1d2939</color>
-  <color name="color_info_light">#fff5faff</color>
-  <color name="color_info_soft">#ffeff8ff</color>
-  <color name="color_info_medium">#ffb2ddff</color>
-  <color name="color_info_bright">#ff53b1fd</color>
-  <color name="color_info_primary">#ff1570ef</color>
+  <color name="color_text_disabled">#ff98a2b3</color>
+  <color name="color_text_placeholder">#ff667085</color>
+  <color name="color_text_subheading">#ff344054</color>
+  <color name="color_text_heading">#ff101828</color>
+  <color name="color_text_default">#ff475467</color>
   <color name="color_info_dark">#ff175cd3</color>
+  <color name="color_info_primary">#ff1570ef</color>
+  <color name="color_info_bright">#ff53b1fd</color>
+  <color name="color_info_medium">#ffb2ddff</color>
+  <color name="color_info_soft">#ffeff8ff</color>
+  <color name="color_info_light">#fff5faff</color>
+  <color name="color_accent_default">#ffff4300</color>
+  <color name="color_accent_muted">#ff101828</color>
   
 </resources>
